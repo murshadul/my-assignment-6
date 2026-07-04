@@ -1,0 +1,139 @@
+
+[
+  {
+    "id": 1,
+    "name": "Starter Resume",
+    "description": "Perfect for students and fresh graduates.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "10+ Templates",
+      "Basic ATS Optimization",
+      "Export to PDF",
+      "1 Resume"
+    ],
+    "icon": "file-text",
+    "img": "https://i.ibb.co.com/BWj9zK5/design-tool.png"
+  },
+  {
+    "id": 2,
+    "name": "Professional Resume",
+    "description": "Create professional ATS-friendly resumes with premium templates.",
+    "price": 19,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "100+ Templates",
+      "ATS Optimization",
+      "Unlimited Editing",
+      "Export to PDF & DOCX"
+    ],
+    "icon": "briefcase",
+    "img": "https://i.ibb.co.com/JWHbQGZG/operation.png"
+  },
+  {
+    "id": 3,
+    "name": "Career Pro",
+    "description": "Everything you need for your job search in one place.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Unlimited Resumes",
+      "Cover Letter Builder",
+      "AI Content Suggestions",
+      "Priority Support"
+    ],
+    "icon": "rocket",
+    "img": "https://i.ibb.co.com/h1ZsKcTZ/portfolio.png"
+  },
+  {
+    "id": 4,
+    "name": "Job Hunter",
+    "description": "Track applications and prepare for interviews with ease.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Application Tracker",
+      "Interview Preparation",
+      "Resume Analytics",
+      "Cloud Storage"
+    ],
+    "icon": "search",
+    "img": "https://i.ibb.co.com/nNbzPjBX/social-media.png"
+  },
+  {
+    "id": 5,
+    "name": "Portfolio Plus",
+    "description": "Build a beautiful online portfolio alongside your resume.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Portfolio Website",
+      "Custom Domain",
+      "Responsive Design",
+      "SEO Friendly"
+    ],
+    "icon": "globe",
+    "img": "https://i.ibb.co.com/V0G4Crfn/writing-2327400-1.png"
+  },
+  {
+    "id": 6,
+    "name": "Premium Career",
+    "description": "Advanced career tools powered by AI.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Unlimited Templates",
+      "AI Resume Review",
+      "LinkedIn Optimization",
+      "Priority Support"
+    ],
+    "icon": "crown",
+    "img": "https://i.ibb.co.com/V0G4Crfn/writing-2327400-1.png"
+  },
+  {
+    "id": 7,
+    "name": "Business Plan",
+    "description": "Designed for recruiters, HR teams, and agencies.",
+    "price": 199,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Team Collaboration",
+      "Admin Dashboard",
+      "Unlimited Users",
+      "Advanced Analytics"
+    ],
+    "icon": "building",
+    "img": "https://i.ibb.co.com/h1ZsKcTZ/portfolio.png"
+  },
+  {
+    "id": 8,
+    "name": "Ultimate Career Suite",
+    "description": "The complete solution for professionals and job seekers.",
+    "price": 149,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Everything in Premium",
+      "AI Interview Coach",
+      "Career Insights",
+      "24/7 Premium Support"
+    ],
+    "icon": "sparkles",
+    "img": "https://i.ibb.co.com/BWj9zK5/design-tool.png"
+  }
+]

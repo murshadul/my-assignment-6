@@ -4,7 +4,7 @@ import  bannerImg from "../../../banner.png"
 import { FaPlay } from 'react-icons/fa';
 const Banner = () => {
     return (
-        <div className='container mx-auto flex  justify-center items-center space-y-5 gap-12
+        <div className='container mx-auto flex  md:justify-center items-center space-y-5 gap-12
         '>
             <div className="flex flex-col justify-start space-y-3">
               <div className="flex items-center text-center gap-2 text-[#9514fa]  w-2/3 rounded-2xl  pl-2 p-1 bg-[#9514fa]/10  backdrop-blur-3xl border border-white/10 shadow-2xl">

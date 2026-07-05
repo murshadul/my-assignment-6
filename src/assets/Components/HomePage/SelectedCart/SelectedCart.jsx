@@ -47,7 +47,7 @@ setSelectedCart([]);
 <h2>Total:</h2>
                 <p>${coin}</p>
                 </div>
-                <button onClick={()=>allDeleteBtn()} className=" btn btn-primary w-full  p-2  font-bold text-xl mb-3">Proceed To CheckOut</button>
+                <button onClick={()=>allDeleteBtn()} className=" btn btn-primary w-full  p-2  font-bold text-xl mb-3 rounded-2xl">Proceed To CheckOut</button>
             </div>
            
           

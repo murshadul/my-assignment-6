@@ -6,6 +6,9 @@ import BannerMiddle from './assets/Components/HomePage/BannerMiddle/BannerMiddle
 import Navbar from './assets/Components/HomePage/Navbar/Navbar'
 import PrimiumTools from './assets/Components/HomePage/PrimiumTools/PrimiumTools'
 import { ToastContainer } from 'react-toastify'
+import GetStarted from './assets/Components/HomePage/GetStarted/GetStarted'
+import SimplePricing from './assets/Components/HomePage/SimplePricing/SimplePricing'
+import Footer from './assets/Components/HomePage/Footer/Footer'
 
 
 
@@ -28,7 +31,12 @@ const [coin,setCoin]=useState(0)
 
 <PrimiumTools coin={coin} setCoin={setCoin} ResponsePromise={ResponsePromise} setSelectedCart={setSelectedCart} selectedCart={selectedCart}></PrimiumTools>
    </Suspense>
+   
+   <GetStarted></GetStarted>
+   
    <ToastContainer />
+   <SimplePricing></SimplePricing>
+   <Footer></Footer>
     </>
   )
 }

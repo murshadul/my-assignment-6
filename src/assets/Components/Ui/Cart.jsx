@@ -1,10 +1,22 @@
 import React, { useState } from 'react';
 import Feature from '../HomePage/PrimuimeToolsCart/Feature';
+import { toast } from 'react-toastify';
 
-const Cart = ({PremiumCart}) => {
+const Cart = ({PremiumCart,selectedCart,setSelectedCart,coin,setCoin}) => {
     const {name,description,price,img,features}=PremiumCart;
 const [isClicked,setIsClicked]=useState(false)
 
+const handleBtnClicked=()=>{
+  toast.success(`🦄 ${name} Added to Cart`,
+    {
+position: "top-center",
+autoClose: 5000,
+theme: "colored",
+});
+setCoin(coin+price)
+setIsClicked(true);
+setSelectedCart([...selectedCart,PremiumCart]);
+}
 
     return (
         <div>
@@ -28,7 +40,7 @@ features.map((feature,index)=>{
         }
      
     </ul>
-    <div className="mt-6" onClick={()=>setIsClicked(true)}>
+    <div className="mt-6" onClick={()=>handleBtnClicked()}>
      {
         isClicked?<button className="btn bg-green-300 text-white btn-block">Added to Cart</button>: <button className="btn btn-primary btn-block">Buy Now</button>
       

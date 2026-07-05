@@ -1,10 +1,11 @@
 
-import { Suspense } from 'react'
+import { Suspense, useState } from 'react'
 import './App.css'
 import Banner from './assets/Components/HomePage/Banner/Banner'
 import BannerMiddle from './assets/Components/HomePage/BannerMiddle/BannerMiddle'
 import Navbar from './assets/Components/HomePage/Navbar/Navbar'
 import PrimiumTools from './assets/Components/HomePage/PrimiumTools/PrimiumTools'
+import { ToastContainer } from 'react-toastify'
 
 
 
@@ -15,8 +16,8 @@ return res.json();
 };
 const ResponsePromise=fetchData();
 function App() {
-
-
+const [selectedCart,setSelectedCart]=useState([]);
+const [coin,setCoin]=useState(0)
   return (
     <>
     
@@ -25,8 +26,9 @@ function App() {
     <BannerMiddle></BannerMiddle>
    <Suspense fallback={<span className="loading loading-spinner text-error"></span>}>
 
-<PrimiumTools ResponsePromise={ResponsePromise}></PrimiumTools>
+<PrimiumTools coin={coin} setCoin={setCoin} ResponsePromise={ResponsePromise} setSelectedCart={setSelectedCart} selectedCart={selectedCart}></PrimiumTools>
    </Suspense>
+   <ToastContainer />
     </>
   )
 }
